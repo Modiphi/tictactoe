@@ -20,7 +20,7 @@ pg.init()
 fps = 30
 CLOCK = pg.time.Clock()
 screen = pg.display.set_mode((width, height+100),0,32)
-pg.display.set_caption("Tic Tac Toe")
+pg.display.set_caption("TicTacToe")
 pg.mouse.set_system_cursor(pg.SYSTEM_CURSOR_CROSSHAIR)
 
 #loading the images
