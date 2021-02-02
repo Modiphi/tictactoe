@@ -2,7 +2,6 @@ import pygame as pg,sys
 from pygame.locals import *
 import time
 
-
 #initialize global variables
 XO = 'x'
 winner = None
@@ -24,9 +23,9 @@ pg.display.set_caption("TicTacToe")
 pg.mouse.set_system_cursor(pg.SYSTEM_CURSOR_CROSSHAIR)
 
 #loading the images
-opening = pg.image.load('tic tac opening.png')
-x_img = pg.image.load('X.png')
-o_img = pg.image.load('O.png')
+opening = pg.image.load('img/tic tac opening.png')
+x_img = pg.image.load('img/X.png')
+o_img = pg.image.load('img/O.png')
 
 #resizing images
 x_img = pg.transform.scale(x_img, (80,80))
